@@ -18,23 +18,12 @@
     padding: 3px;
     margin: 7px;
 }
-/*#table {
-    background-color: silver;
-    display: inline-flex;
-    vertical-align: top;
-}*/
-.edit {
-    margin: 0 auto;
-    width: 600px;
-    background-color: aliceblue;
-    display: inline-block;
-    border-style: solid;
-    border-color: antiquewhite;
-    border-width: 2px;
-    padding: 3px;
-    margin: 7px;
-    width: 300px;
+.div {
+    display: flex
 }
-.line {
-    display: inline-flex;
+.edit{
+    flex: 2
+}
+.line{
+    flex:1
 }
